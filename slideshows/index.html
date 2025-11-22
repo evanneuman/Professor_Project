@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slideshows</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 40px;
-            background: #fafafa;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        p {
-            text-align: center;
-            color: #555;
-        }
-        img {
-            max-width: 70%; /* prevents image from being too big */
-            height: auto;
-            border-radius: 10px;
-            margin-top: 20px;
-            }
-        a {
-            display: inline-block;
-            margin-top: 30px;
-            text-decoration: none;
-            color: #0066cc;
-            font-weight: bold;
-            }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slideshows</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background: #fafafa;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #0e572d;
+    }
+
+    img {
+      max-width: 70%; /* scales the image */
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>Slideshows</h1>
-    <p>This page is working! Add slideshow files here when you're ready.</p>
+  <h1>Slideshows</h1>
 
-    <img src="approved_image.jpg" alt="Proof of Concept Meme" />
+  <!-- Meme / proof of concept image -->
+  <img src="approved_image.jpeg" alt="Proof of Concept Meme" />
 
-    <p><a href="../index.html">← Back to Home</a></p>
+  <!-- Back to homepage -->
+  <p><a class="back-link" href="../index.html">← Back to Home</a></p>
 </body>
 </html>
+
